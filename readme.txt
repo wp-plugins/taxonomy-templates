@@ -2,7 +2,7 @@
 Contributors: madjax
 Tags: taxonomy, category, tag, templates, custom templates
 Tested up to: 3.3.1
-Stable tag: 0.1
+Stable tag: 0.2
 Requires at least: 3.2.1
 
 Taxonomy Templates allows user selection of a theme's available taxonomy templates, much like how pages can select their template.
@@ -15,7 +15,10 @@ When additional templates are available, a drop down appears on the edit Categor
 
 == Changelog ==
 
-= .1 =
+= 0.2 =
+Quick fix for undefined variable warning.
+
+= 0.1 =
 Initial Release
 
 == Installation ==
