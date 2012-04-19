@@ -3,7 +3,7 @@
 Plugin Name: Taxonomy Templates
 Plugin URI: http://jacksonwhelan.com/plugins/taxonomy-templates/
 Author: Jackson Whelan
-Version: 0.3
+Version: 0.3.1
 Description: Allows user selection of theme taxonomy templates, much like page templates.
 Author URI: http://jacksonwhelan.com
 
@@ -34,7 +34,7 @@ class TaxonomyTemplates {
 		elseif ( is_tax() && $template = $this->get_custom_taxonomy_template() ) :
 		endif;
 		
-		if ( isset( $template ) ) {
+		if ( !empty( $template ) ) {
 			include( apply_filters( 'template_include', $template ) );
 			exit;
 		}

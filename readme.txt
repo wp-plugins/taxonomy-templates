@@ -2,7 +2,7 @@
 Contributors: madjax
 Tags: taxonomy, category, tag, templates, custom templates
 Tested up to: 3.3.1
-Stable tag: 0.3
+Stable tag: 0.3.1
 Requires at least: 3.2.1
 
 Taxonomy Templates allows user selection of a theme's available taxonomy templates, much like how pages can select their template.
@@ -14,6 +14,9 @@ Taxonomy Templates allows user selection of a theme's available taxonomy templat
 When additional templates are available, a drop down appears on the edit Category, Tag and any custom taxonomy pages.
 
 == Changelog ==
+= 0.3.1 =
+* Check for empty option value.
+
 = 0.3 =
 * Now supports parent template inheritance.
 * Bug fix - exit after template include
